@@ -1,0 +1,88 @@
+/*llamando a selector de clase con un punto*/
+#cancha {
+/*utilizando position relative para superponer mas elementos*/
+  position: relative;
+/*colocando alto ,ancho y color de fondo*/
+     width: 800px;
+     height: 400px;
+  background-color: #8FBC8F;
+
+}
+/*llamando a selector de clase con un punto*/
+.lineacion {
+/*colocando borde a mi cancha*/
+  border: 5px solid white;
+  height: 350px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px
+}
+
+/*llamando a selector de clase con un punto*/
+.arco1 {
+/*colocando una caja rectangular de lado izquierdo,bordes blancos(arco1)y utilizando p.absolute para modificar su posicion */
+  border: 5px solid white;
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  right: 20px;
+}
+/*llamando a selector de clase con un punto*/
+.arco2 {
+/*colocando una caja rectangular de lado derecho,bordes blancos(arco2) y utilizando p.absolute para modificar su posicion */
+  border: 5px solid white;
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: 90px;
+  bottom: 20px;
+  right: 20px;
+}
+
+/*llamando a selector de clase con un punto*/
+.centro {
+/*colocando un circulo con bordes blancos y utilizando p.absolute para modificar su posicion */
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 90px;
+  left: 300px;
+}
+
+/*llamando a selector de clase con un punto*/
+.pelota1 {
+/*colocando color de fondo ,alto y ancho ,bordes redondeados y utilizando p.absolute para modificar su posicion. 123 */
+  background-color: white;
+  width: 20px;
+  height:  20px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 280px;
+  left: 115px;
+}
+
+.pelota2 {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 320px;
+  left: 450px;
+}
+
+.pelota3 {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 120px;
+  left: 640px;
+}
